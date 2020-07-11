@@ -1,2 +1,1 @@
-# Frontend Interview Questions
-
+# Study Notes of Rafael Rozon
