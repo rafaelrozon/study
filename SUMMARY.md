@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Frontend Interview Questions](README.md)
+* [Intro](README.md)
 
 ## Frontend
 
