@@ -1,10 +1,13 @@
 # Table of contents
 
 * [Frontend Interview Questions](README.md)
-* [Front-end Architecture](front-end-architecture.md)
-* [Software Development Practice & Team dynamics](software-development-practice-and-team-dynamics.md)
 
 ## Frontend
 
 * [Redux](frontend/redux.md)
+* [Frontend Architecture](frontend/frontend-architecture.md)
+
+## Software Practice
+
+* [Software Practice & Team dynamics](software-practice/software-development-practice-and-team-dynamics.md)
 

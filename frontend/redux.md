@@ -1,3 +1,7 @@
+---
+description: 'Dev lessons, cheatsheets, etc'
+---
+
 # Redux
 
 ## Dev lessons

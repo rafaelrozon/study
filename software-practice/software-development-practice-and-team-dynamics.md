@@ -1,4 +1,4 @@
-# Software Development Practice & Team dynamics
+# Software Practice & Team dynamics
 
 ### Tasks
 
