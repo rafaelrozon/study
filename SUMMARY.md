@@ -9,5 +9,5 @@
 
 ## Software Practice
 
-* [Software Practice & Team dynamics](software-practice/software-development-practice-and-team-dynamics.md)
+* [Problems & Solutions](software-practice/software-development-practice-and-team-dynamics.md)
 
