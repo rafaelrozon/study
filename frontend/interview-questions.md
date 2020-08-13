@@ -8,7 +8,7 @@ description: 'https://github.com/h5bp/Front-end-Developer-Interview-Questions'
 
 Questions come from: [https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/src/questions/html-questions.md](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/src/questions/html-questions.md)
 
-
+---
 
 **What does a doctype do?**
 
