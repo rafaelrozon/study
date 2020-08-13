@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Hello!](README.md)
+* [Introduction](README.md)
 
 ## Frontend
 

@@ -1,6 +1,6 @@
-# Hello!
+# Introduction
 
-My name is Rafael and these are my notes on anything related to Software Development. It is a living collection of thoughts, learnings, cheatsheets, etc on all things I have worked on and things I am learning.
+My name is Rafael Rozon and these are my notes on anything related to Software Development. It is a living collection of thoughts, learnings, cheatsheets, etc on all things I have worked on and things I am learning.
 
 ### Learning in Public
 
@@ -8,13 +8,17 @@ The first time I heard about _Learning in Public_ was in [You Can Learn A Lot Fo
 
 ### Go to
 
-{% page-ref page="frontend/redux.md" %}
+#### **Frontend**
 
 {% page-ref page="frontend/frontend-architecture.md" %}
 
 {% page-ref page="frontend/interview-questions.md" %}
 
+{% page-ref page="frontend/redux.md" %}
+
 {% page-ref page="frontend/react.md" %}
+
+#### **Software Practice**
 
 {% page-ref page="software-practice/software-development-practice-and-team-dynamics.md" %}
 
