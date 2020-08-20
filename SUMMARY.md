@@ -5,6 +5,7 @@
 ## Frontend
 
 * [Redux](frontend/redux.md)
+* [Testing](frontend/testing.md)
 * [Frontend Architecture](frontend/frontend-architecture.md)
 * [Interview Questions](frontend/interview-questions.md)
 * [React](frontend/react.md)
