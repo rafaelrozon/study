@@ -40,7 +40,7 @@ it("should terminate on SIGTERM", async () => {
 
 Source: [https://stackoverflow.com/questions/46494297/nodejs-jest-unit-test-settimeout-in-process-on-callback](https://stackoverflow.com/questions/46494297/nodejs-jest-unit-test-settimeout-in-process-on-callback) 
 
-### How to test an async function throws an error
+### How to test an async function that throws an error
 
 ```text
 it('should test async errors', async () =>  {        
@@ -52,13 +52,13 @@ it('should test async errors', async () =>  {
 
 Source: [https://stackoverflow.com/questions/47144187/can-you-write-async-tests-that-expect-tothrow](https://stackoverflow.com/questions/47144187/can-you-write-async-tests-that-expect-tothrow)
 
-### How to change mocked implementation on a per test basis
+### How to change a mocked implementation on a per-test basis
 
 Sources:
 
 * [https://stackoverflow.com/questions/48790927/how-to-change-mock-implementation-on-a-per-single-test-basis-jestjs](https://stackoverflow.com/questions/48790927/how-to-change-mock-implementation-on-a-per-single-test-basis-jestjs)
 
-### How prepare a Node server for testing \(Express, Hapi, etc\)
+### How to prepare a Node server for testing \(Express, Hapi, etc\)
 
 pseudocode:
 
