@@ -1,11 +1,13 @@
 # JavaScript
 
-### Dev Lessons
+## Dev Lessons
 
-1. Never check for `typeof variable === “object”` when checking for null
-2. Only use async/await in a function if additional code is used after the async calls, i.e., if the last thing in the function is an async call, then the whole function doesn’t need to be async. This is good:
+* Never check for `typeof variable === “object”` when checking for null
+* Only use async/await in a function if additional code is used after the async calls, i.e., if the last thing in the function is an async call, then the whole function doesn’t need to be async. 
 
-```text
+This is good:
+
+```javascript
 public someFunction() {
     try {
         this.service.doStuffAsync();
@@ -15,9 +17,9 @@ public someFunction() {
 }
 ```
 
-This is not
+This is not:
 
-```text
+```javascript
 public async someFunction() {
     try {
         await this.service.doStuffAsync();

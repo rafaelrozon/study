@@ -1,12 +1,12 @@
 # React
 
-### Dev Lessons
+## Dev Lessons
 
-1. When refactoring class-based components to functional components make a copy and work on the copy in order to have a reference
+* When refactoring class-based components to functional components make a copy and work on the copy in order to have a reference.
 
+## How To's
 
-
-### **Reset component local state when the global state changes.** 
+### **Reset component local state when props change.** 
 
 Example: a React component that has a local state, receives its initial props from the Redux store, and should be reset when an API call fails. 
 

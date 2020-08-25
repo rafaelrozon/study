@@ -1,10 +1,16 @@
+---
+description: Anything related to testing in Web Development
+---
+
 # Testing
 
 ## Dev Lessons
 
-1. Separate app initialization from the code that runs it. It can be useful when writing tests
+* Separate app initialization from the code that runs it. It can be useful when writing tests
 
-## How to test a server stops on SIGTERM
+## How To's
+
+### Test a server stops on SIGTERM
 
 ```text
 it("should terminate on SIGTERM", async () => {
@@ -40,7 +46,7 @@ it("should terminate on SIGTERM", async () => {
 
 Source: [https://stackoverflow.com/questions/46494297/nodejs-jest-unit-test-settimeout-in-process-on-callback](https://stackoverflow.com/questions/46494297/nodejs-jest-unit-test-settimeout-in-process-on-callback) 
 
-### How to test an async function that throws an error
+### Test an async function that throws an error
 
 ```text
 it('should test async errors', async () =>  {        
@@ -52,13 +58,13 @@ it('should test async errors', async () =>  {
 
 Source: [https://stackoverflow.com/questions/47144187/can-you-write-async-tests-that-expect-tothrow](https://stackoverflow.com/questions/47144187/can-you-write-async-tests-that-expect-tothrow)
 
-### How to change a mocked implementation on a per-test basis
+### Change a mocked implementation on a per-test basis
 
 Sources:
 
 * [https://stackoverflow.com/questions/48790927/how-to-change-mock-implementation-on-a-per-single-test-basis-jestjs](https://stackoverflow.com/questions/48790927/how-to-change-mock-implementation-on-a-per-single-test-basis-jestjs)
 
-### How to prepare a Node server for testing \(Express, Hapi, etc\)
+### Prepare a Node server for testing \(Express, Hapi, etc\)
 
 pseudocode:
 
