@@ -1,5 +1,9 @@
 # Testing
 
+## Dev Lessons
+
+1. Separate app initialization from the code that runs it. It can be useful when writing tests
+
 ## How to test a server stops on SIGTERM
 
 ```text
