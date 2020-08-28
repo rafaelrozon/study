@@ -21,3 +21,7 @@
 
 * [Web Dev](web-dev.md)
 
+## Typography
+
+* [Web Typography](typography/web-typography.md)
+
