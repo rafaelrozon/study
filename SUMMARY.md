@@ -20,6 +20,7 @@
 ---
 
 * [Web Dev](web-dev.md)
+* [Error Handling in Web Apps](error-handling-in-web-apps.md)
 
 ## Typography
 
