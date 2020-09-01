@@ -26,9 +26,12 @@
 
 * [Web Typography](typography/web-typography.md)
 
+## i18n
+
 ---
 
-* [React Native](react-native.md)
+* [React Native](react-native/README.md)
+  * [Pt-Br](react-native/pt-br.md)
 
 ## NodeJS
 

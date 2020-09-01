@@ -46,6 +46,8 @@ it("should terminate on SIGTERM", async () => {
 
 Source: [https://stackoverflow.com/questions/46494297/nodejs-jest-unit-test-settimeout-in-process-on-callback](https://stackoverflow.com/questions/46494297/nodejs-jest-unit-test-settimeout-in-process-on-callback) 
 
+### 
+
 ### Test an async function that throws an error
 
 ```text
@@ -58,7 +60,11 @@ it('should test async errors', async () =>  {
 
 Source: [https://stackoverflow.com/questions/47144187/can-you-write-async-tests-that-expect-tothrow](https://stackoverflow.com/questions/47144187/can-you-write-async-tests-that-expect-tothrow)
 
+### 
+
 ### Change a mocked implementation on a per-test basis
+
+Research more this.
 
 Sources:
 

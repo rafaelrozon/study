@@ -23,7 +23,7 @@
 * x-height: the size of the lower case letter against the size of the capital letters. More x-height help with legibility because there is more body.
 * Qualities of "Workhorses" typefaces:
   * high enough x-height
-  * recognizable letter forms
+  * recognizable letterforms
   * legible at various sizes
 
 ### Choosing typefaces
