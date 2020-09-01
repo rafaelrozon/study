@@ -2,7 +2,7 @@
 description: General Web Development Topics
 ---
 
-# Web Dev
+# Miscellaneous Web Dev
 
 ## Dev Lessons
 
