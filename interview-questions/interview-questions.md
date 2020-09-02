@@ -1,14 +1,9 @@
 ---
-description: 'https://github.com/h5bp/Front-end-Developer-Interview-Questions'
+description: >-
+  https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/src/questions/html-questions.md
 ---
 
-# Interview Questions
-
-## HTML Questions
-
-Questions come from: [https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/src/questions/html-questions.md](https://github.com/h5bp/Front-end-Developer-Interview-Questions/blob/master/src/questions/html-questions.md)
-
----
+# HTML
 
 ### **What does a doctype do?**
 
@@ -62,4 +57,6 @@ References
 
 * [https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use\_data\_attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
 * [https://css-tricks.com/a-complete-guide-to-data-attributes/](https://css-tricks.com/a-complete-guide-to-data-attributes/)
+
+
 

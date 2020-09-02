@@ -12,7 +12,7 @@ The first time I heard about _Learning in Public_ was in [You Can Learn A Lot Fo
 
 {% page-ref page="frontend/frontend-architecture.md" %}
 
-{% page-ref page="frontend/interview-questions.md" %}
+{% page-ref page="interview-questions/interview-questions.md" %}
 
 {% page-ref page="frontend/redux.md" %}
 
