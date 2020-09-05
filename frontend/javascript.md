@@ -29,3 +29,11 @@ public async someFunction() {
 }
 ```
 
+
+
+### Circular Dependencies
+
+* [https://railsware.com/blog/how-to-analyze-circular-dependencies-in-es6/](https://railsware.com/blog/how-to-analyze-circular-dependencies-in-es6/)
+* [https://stackoverflow.com/questions/38841469/how-to-fix-this-es6-module-circular-dependency/42704874\#42704874](https://stackoverflow.com/questions/38841469/how-to-fix-this-es6-module-circular-dependency/42704874#42704874)
+* [https://medium.com/content-uneditable/circular-dependencies-in-javascript-a-k-a-coding-is-not-a-rock-paper-scissors-game-9c2a9eccd4bc](https://medium.com/content-uneditable/circular-dependencies-in-javascript-a-k-a-coding-is-not-a-rock-paper-scissors-game-9c2a9eccd4bc)
+
