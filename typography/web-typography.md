@@ -46,6 +46,27 @@
   * good x-height
   * open letterforms \(good counter space\)
   * italic looks enough like italic, same for bold
+* Process:
+  * define the attributes/qualities/adjectives of what we want to vehiculate with the design, for example: elegance, fun, sexy, strong, etc. 
+* Sites to search for typefaces:
+  * Typekit
+* Typefaces pairing:
+  * go for contrast
+  * different typefaces support different weights
+* How to chose:
+  * Have a page with sample texts that include everything you'll need to account for: headings, body, lists, etc
+  * Make variations of this content in different typefaces
+
+### Layout: Sizing & Space
+
+* the longer the line length, the more line height it will need to help guide the eye to the next line
+* 45 to 75 characters per line
+* hierarchy: the order that people read
+
+
+
+* [https://typedecon.com/blogs/type-glossary](https://typedecon.com/blogs/type-glossary)
+* [https://fontsinuse.com/](https://fontsinuse.com/)
 
 
 
