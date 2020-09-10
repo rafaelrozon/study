@@ -36,3 +36,7 @@
 * [JavaScript](interview-questions/javascript.md)
 * [HTML](interview-questions/interview-questions.md)
 
+## Templates
+
+* [Meeting Agenda](templates/meeting-agenda.md)
+
