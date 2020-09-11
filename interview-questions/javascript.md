@@ -24,6 +24,39 @@ When event listeners are registered the default behaviour is to run then on the 
 
 `stopPropagation` method of the event object is used to stop the bubbling phase of the event, which means that only the event handler where stopPropagation is called will be invoked. Event handlers in parent tags will run. 
 
+
+
+### Explain how prototypal inheritance works.
+
+JavaScript has only one construct that can be used for inheritance and this construct is an object. Each object in JavaScript has a special property called prototype. This property is a link to the object used to create another object. For example:
+
+```text
+const myFunc = function() {};
+
+const anInstance = new myFun();
+
+// anInstance.prototype --> myFunc.prototype --> Object.prototype --> null
+```
+
+Here `anInstace` was create from `myFun`, therefore its prototype "points" to myFunc. In turn, `myFunc`'s prototype points to Object which sits on the top of the prototype chain. By convention, Object has prototype null. When a property of an object is accessed, JavaScript will first check if the property is present in the object itself, if not, it will use the prototype property of the object and check its "parent", if it's not there it will use the prototype property of the parent to go to the grand-parent object and so on until the property is found or the chain is finished. 
+
+* `[[Prototype]]` is the standard notation to describe the prototype of an object.
+* _own properties:_ are properties that belong to the object and not to one of its prototypes, i.e., properties that were defined when the object was created and not in one of its ancestor's
+* functions can be properties of objects and behave in the same way as other properties. When an inherited function is executed the value of the `this` keyword refers to the inheriting object and not its prototype.
+* All functions have a property called prototype, except arrow functions. It specifies the`[[Prototype]]` to be assigned to all instances of the function created by the new keyword. 
+* `__proto__` is non-standard but it's a property that browsers have implemented to access the prototype of objects. 
+* Methods to create objects
+  * with a constructor
+    * a constructor is a function that is called with the new operator
+  * Object.created
+    * introduced in ES5. 
+    * It creates a new object and set the prototype to the object passed as an argument
+  * with the class keyword
+
+
+
+* [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance\_and\_the\_prototype\_chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+
 ### --------------------------------
 
 ### TODO:

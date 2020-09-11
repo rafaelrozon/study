@@ -1,6 +1,6 @@
 # Meeting Agenda
 
-## 2020-12-01 Meeting Notes: &lt;topic&gt;
+## &lt;year&gt;-&lt;month&gt;-&lt;day&gt; Meeting Notes: &lt;topic&gt;
 
 ### Date
 
