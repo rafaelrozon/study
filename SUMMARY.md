@@ -42,5 +42,6 @@
 
 ## Epic React
 
+* [General](epic-react/general.md)
 * [React Fundamentals](epic-react/react-fundamentals.md)
 
