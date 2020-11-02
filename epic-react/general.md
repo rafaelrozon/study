@@ -10,6 +10,11 @@
 * Ref
   * it's created with React.useRef
   * ref attribute is a React specific attributed. It takes an object and React will set the DOM element to a property in this object
+* useEffect
+  * no dependency array means "I depend on everything"
+  * with empty dependency array means "I depend on nothing"
+  * with dependency array filled means "I depend on this variable"
+* When we create a component we are not imperatively making it render. React is the one responsible to decide when the component will be painted in the screen. Remember that writing `<MyComponent />` doesn't actually add the component to the DOM,  but invoke React.createElement.
 * Lifting state
   * when data needs to be used in siblings components, move it to the first common ancestors \(parent component\). Then the parent component holds the current value and passes callback functions to the child components update the state.
 * Colocating state
