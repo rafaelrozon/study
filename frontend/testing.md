@@ -116,3 +116,25 @@ describe("server tests", () => {
 
 Got this from Kent C. Dodds: [https://frontendmasters.com/courses/testing-javascript/introducing-integration-testing/](https://frontendmasters.com/courses/testing-javascript/introducing-integration-testing/)
 
+### How to get content set using dangerouslySetInnerHTML
+
+```text
+// TestComponent.jsx
+import React from 'react';
+
+const MyComp = ({ text }) => <p className="target" dangerouslySetInnerHTML={{ __html: text }}></p>
+
+export default MyComp;
+
+
+// TestComponent.test.js
+
+it('can read content set using dangerouslySetInnerHTML', () => {
+    const text = "Ampersand &amp;";
+    const wrapper = mount(<MyComp text={text} />)
+    const target = wrapper.find('.target');
+    const { dangerouslySetInnerHTML: { __html } } = target.props();
+    expect(__html).toEqual("Ampersand &amp;");
+});
+```
+
