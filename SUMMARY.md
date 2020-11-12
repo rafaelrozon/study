@@ -18,6 +18,7 @@
 
 * [Problems & Solutions](software-practice/software-development-practice-and-team-dynamics.md)
 * [Lessons Learned & Thoughts](software-practice/lessons-learned-and-thoughts.md)
+* [Git](software-practice/git.md)
 
 ## Typography
 
