@@ -20,3 +20,10 @@
 * Colocating state
   * State should be as close as possible to where it's used. If a piece of state is only needed in one component, it should be local. It helps with maintenance and performance. 
 
+
+
+Questions
+
+1. Does useState always return a new reference of state and setState?
+2. If I get an object as the state from setState and want to use it as a dependency of a useEffect hook is it going to call the useEffect every time or only when the object changes?
+
