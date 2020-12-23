@@ -4,6 +4,7 @@
 
 * Never check for `typeof variable === “object”` when checking for null
 * Only use async/await in a function if additional code is used after the async calls, i.e., if the last thing in the function is an async call, then the whole function doesn’t need to be async. 
+* fetch only rejects the response if the connection with the server failed. Like there was no network at all. If the fetch can talk to the server but the server responds with an error code, fetch won't throw anything. \(see: [https://developer.mozilla.org/en-US/docs/Web/API/Fetch\_API\#Differences\_from\_jQuery](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API#Differences_from_jQuery)\)
 
 This is good:
 
