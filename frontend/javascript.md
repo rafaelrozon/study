@@ -38,3 +38,9 @@ public async someFunction() {
 * [https://stackoverflow.com/questions/38841469/how-to-fix-this-es6-module-circular-dependency/42704874\#42704874](https://stackoverflow.com/questions/38841469/how-to-fix-this-es6-module-circular-dependency/42704874#42704874)
 * [https://medium.com/content-uneditable/circular-dependencies-in-javascript-a-k-a-coding-is-not-a-rock-paper-scissors-game-9c2a9eccd4bc](https://medium.com/content-uneditable/circular-dependencies-in-javascript-a-k-a-coding-is-not-a-rock-paper-scissors-game-9c2a9eccd4bc)
 
+
+
+### Execution Context
+
+Global Execution Context: Thread of execution + Global Variable Environment. The thread of execution goes through the code line-by-line. Global Variable Environment keeps labels associated with values. It's available to the whole application. When we run a function it gets its own execution context. After the function is finished, its execution context is deleted. 
+
