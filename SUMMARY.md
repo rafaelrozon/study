@@ -47,3 +47,7 @@
 * [React Fundamentals](epic-react/react-fundamentals.md)
 * [React Advanced Hooks](epic-react/react-advanced-hooks.md)
 
+## Courses
+
+* [Introduction to DDD - Pluralsight](courses/introduction-to-ddd-pluralsight.md)
+
