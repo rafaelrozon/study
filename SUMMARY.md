@@ -49,5 +49,13 @@
 
 ## Courses
 
-* [Introduction to DDD - Pluralsight](courses/introduction-to-ddd-pluralsight.md)
+* [Introduction to DDD - Pluralsight](courses/introduction-to-ddd-pluralsight/README.md)
+  * [Production-grade Typescript - FrontendMasters](courses/introduction-to-ddd-pluralsight/production-grade-typescript-frontendmasters.md)
+
+---
+
+* [State Modeling in React with XState](state-modeling-in-react-with-xstate.md)
+* [Lean Front-end Engineering - FrontendMasters](lean-front-end-engineering-frontendmasters.md)
+* [Web UI Architecture](web-ui-architecture.md)
+* [Enterprise Architecture Patterns - FrontendMasters](enterprise-architecture-patterns-frontendmasters.md)
 
