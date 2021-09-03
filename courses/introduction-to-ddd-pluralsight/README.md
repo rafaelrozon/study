@@ -121,7 +121,7 @@ Resources
 * Aggregates
   * One or more entities that change together
   * it must have a root, which is the parent of all aggregates
-  * an aggregate root can be copmpose of a single aggregate
+  * an aggregate root can be copmposed of a single aggregate
   * it enforces data consistency and follow ACID
   * root
     * maintain invariants
@@ -131,8 +131,33 @@ Resources
 * default to one-way associations in the models
 * in relationship references, use real object references not ids of objects
 * object relationshipts are not the same as data relationships
-* instead of having navigational methods in non-root objects in an aggregated, have an id of the root. It reduces confusiong with ORMs and the complexity in the model
+* instead of having navigational methods in non-root objects in an aggregated, have an id of the root. It reduces confusion with ORMs and the complexity in the model
 * invariant
   * Example: speed of light, 
-  * business rules that must be true for the system to behave correctly. Example: end data must be after start date
+  * business rules that must be true for the system to behave correctly. Example: end date must be after start date
+* Recognizing signs of a misidentified aggregate
+  * cross-aggregate invariants should not be enforced by any one aggregate
+    * use a domain service instead
+    * possible red flag about the model
+* Aggregate tips
+  * they're not always the answer for complexity
+  * aggreagates can only connect by the root, i.e., members of an aggreagate can only communicate with the root of another aggregatate
+  * don't overlook using foreign Keys for non-root entities
+  * too many foreign keys to non-root entities may suggest a problem
+  * aggregates of one are acceptable
+  * rule of cascading deletes
+* Key takewawys
+  * avoid big ball of mud models
+  * break the model up into aggregates
+  * an aggregates represents a graph of objects in a transaction
+  * aggregates encapuslate business rules and invariants
+  * default to one-way relationships when modeling associations
+  * don't feat evolving the design of your aggregates as you learn more about the domain
+
+
+
+### Repositories
+
+* only aggregate roots can use repositories?
+* manage the lifecycles of objects
 
