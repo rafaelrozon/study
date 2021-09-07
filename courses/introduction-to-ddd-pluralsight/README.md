@@ -158,6 +158,84 @@ Resources
 
 ### Repositories
 
+* definition: an abstraction your domain model uses do define what persistence needs it has
 * only aggregate roots can use repositories?
 * manage the lifecycles of objects
+* benefits
+  * common abstraction for persistence
+  * promotes separation of concern
+  * communicates designs decisions
+    * controls access
+  * enables testability
+  * improved maintainability
+* Guides & tips
+  * think of it as an in-memory collection \(an illusion of a collection\)
+  * use a global/known common access interface
+  * create custom methods for custom queries
+    * but be careful to not have lots of custom queries, use specs for that instead
+* use repositories for aggregate roots only
+* the client focuses on the model repository on persistence
+* usual problems with repositories
+  * N+1 Query errors
+  * inappropriate use of eager or lazy loading
+  * fetching more data than required
+* Profiling the database can help identify if repositories have problems
+* Generic Repositories
+  * trade-offs
+    * if the generic interface has a delete method, but some repository should not be deleted, then it could be a problem. Maybe use a generic interface but don't implement the methods not required
+    * use a marker interface to avoid client code to use a repository with a non-aggregate root
+* Query repositories vs command repositories
+  * CQRS
+  * splitting repositories between read and write help to keep repositories small
+* Specification
+  * specify the state of an objects
+  * used in 3 ways: validation, selection & querying, creating for a specific purpose
+  * "Create explicit predicate-lie Value Objects for specialized purposes. A Specification is a predicate that determines if an object satisfies some criteria", Eric Evans
+  * bool isSatisfiedBy\(object someObject\)
+  * Benefits
+    * names classes via ubiquitoues language
+    * reusable
+    * separate persistence from Domain Model and UI
+    * keep business logic out of persistence layer and db
+    * help entities and aggregates follow the SRP
+  * each specification is a value object and should be immutable
+
+
+
+### Domain Events and Anti-corruption layers
+
+* domain events and anti-corruption layers help to decouple the domain from other parts of the app
+* anti-corruption layers: translators between bounded-contexts and legacy parts of the app
+* domain events:
+  * alert that some activity has happened
+  * state changed
+  * encapuslated as objects
+* identifying domain events
+  * "if that happens", "notify user when", "inform the user if"
+  * represent the past
+  * typically, they're immutable
+  * name the event using the bounded context's ubiquitous language
+  * use the command name causing the event to be fired
+  * only create events when there's behaviour that needs to occur when the event happens and you want to decouple the behaviour from its trigger and the behaviour doesn't belong on the class that is triggering it
+* Each event is a class
+  * include when the event happened. Use past tense
+  * include event-specific details
+  * no behaviour or side-effects
+* Hollywood principle: "don't call us, we'll call you"
+  * use domain events to let other code \(application\) know of things that happend. Handlers in the app will listen \("we'll call you"\) for the events instead of having extra code \("don't call us"\) in the domain layer
+* domain events should not fail. Don't write code that relies on exceptions thrown by event handlers
+* Create base classes or Interfaces for Handler and DomainEvent
+* the entity class has a field "events", as things happen events are added to the list, but are only dispatched in the repository after persistence is done
+* side-effects are only triggered after persistence
+* Integration Events
+  * created and consumed beyond the domain, example Domain --&gt; UI App
+* Anti-corruption layers
+  * insulate bounded contexts
+  * protect the domain from other systems and implementation details
+  * it translates between bounded contexts and legacy app
+  * simplifies communication between systems, like a fa/ca
+
+
+
+
 
