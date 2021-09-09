@@ -235,6 +235,11 @@ Resources
   * it translates between bounded contexts and legacy app
   * simplifies communication between systems, like a fa/ca
 
+#### UI
+
+* Jimmy Nilsson
+  * Developing core business applications with DDD and Microsoft .NET. TechEd NA 2013
+
 
 
 
