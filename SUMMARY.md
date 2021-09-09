@@ -58,4 +58,5 @@
 * [Lean Front-end Engineering - FrontendMasters](lean-front-end-engineering-frontendmasters.md)
 * [Web UI Architecture](web-ui-architecture.md)
 * [Enterprise Architecture Patterns - FrontendMasters](enterprise-architecture-patterns-frontendmasters.md)
+* [Clean Architecture: Patterns, Practices, and Principles \(Pluralsight\)](clean-architecture-patterns-practices-and-principles-pluralsight.md)
 
