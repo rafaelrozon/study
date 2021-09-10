@@ -80,4 +80,52 @@
     * additional layer cost
     * requires extra thought
     * IoC is counter-intuitive
-* 
+
+
+
+### Commands and Queries
+
+* Command: does something, modify the state of the system, doesn't return a value
+* Query: answers a question, doesn't modify state, should return a value 
+* Exceptions:
+  * pop a stack: removes and return removed element
+  * create a db record: create record, return id
+* types of CQRS
+  * single-database CQRS
+  * two-database CQRS
+    * read and write dbs
+    * commands use write db
+    * queries use read db
+    * eventual consistency
+    * orders of magintude faster
+  * Event Sourcing
+    * store events
+    * complete audit trail
+    * point-in-time reconstruction
+    * replay events
+    * multiple read database
+    * rebuild production database
+* Pros
+  * more efficient design
+  * optimized performance
+  * event sourcing benefits
+* Cons
+  * inconsistent across stacks
+  * more complex
+  * event sourcing costs
+
+
+
+### Functional Organization
+
+* functional cohesion
+* spacial locality: what is used together near of each other
+* Pros
+  * spatial locality
+  * easy to navigate
+  * avoid vendor lock-in
+* Cons
+  * lose framework conventions
+  * lose automatic scaffolding
+  * categorical is easier at first
+
