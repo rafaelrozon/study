@@ -4,6 +4,8 @@ description: 'https://frontendmasters.com/courses/lean-front-end-engineering/'
 
 # Lean Front-end Engineering - FrontendMasters
 
+[http://billwscott.com/share/presentations/2012/fews/ws.pdf](http://billwscott.com/share/presentations/2012/fews/ws.pdf)
+
 The more process you have, the less talent \(at the company\) you have.
 
 Fewer people, fewer communication problems.
@@ -65,5 +67,13 @@ Lean UX
   * Kanban: simple tracking of stories; end state is validated or not
   * Small batches
 * Lean UX
-  * 
+
+3 Principles of Lean UX
+
+* Principles
+  * Shared Understanding – The more understanding the less documentation.
+  * Deep Collaboration – Having a strong belief that ideas come from many different voices.
+  * Continuous Customer Feedback – This is the lifeblood of the team because it elimitates politics and turns a team outside-in.
+* Healty product life cycle
+  * Discover customer insights -&gt; define customer problems -&gt; define solution concepts -&gt; deliver & test solutions -&gt; \[back to beginning\]
 
